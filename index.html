@@ -1,0 +1,470 @@
+<!-- #FECC01 -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/icon.png">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-headerr">
+        <header>
+            <div class="logo">
+                <a href="#">Huari P.P.</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="assets/img/hero.png" alt="">
+            </div>
+            <h1>HUARI PATEY PAZ</h1>
+            <h2>Full Stack Developer</h2>
+            <div class="redes">
+                <a href="mailTo:huaripateypaz@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/Huaripaz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/huari-patey-paz-17588924a/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+
+            <!-- Sobre mi -->
+            <div class="sobremi-header">
+                <h2>Sobre Mí</h2>
+            </div>
+            <p><span>Hola, soy Huari.</span> Desarrollador Full Stack orientado en Back End, con habilidad en
+                lenguajes y herramientas de software. Excelente manejo de tecnologías y escritura de código para
+                desarrollar sistemas, proyectos innovadores, amigables con el usuario y que aportan eficiencia al
+                negocio. Habilidad motivando, aprendiendo y gestionando equipos. Buen manejo del portugués (B2) y
+                español (nativo).
+            </p>
+
+            <!-- Descargar Curriculum -->
+            <button>
+                <a href="./assets/C.V. Huari Patey Paz.pdf" aria-label="Descargar curriculum"
+                    class="cursor-pointer border-round-lg no-underline" download>Descargar CV</a> <i
+                    class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="skill-header">
+            <h2>Skills</h2>
+        </div>
+
+        <!-- Skills -->
+        <div class="skills-conteiner">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/html.png" alt="logo_skill_html" class="skill-icon">
+                    </div>
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/css.png" alt="logo_skill_css" class="skill-icon">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/javascript.png" alt="logo_skill_javascript" class="skill-icon">
+                    </div>
+                    <h3>Javascript</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/typescript.png" alt="logo_skill_typescript" class="skill-icon">
+                    </div>
+                    <h3>TypeScript</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/python.png" alt="logo_skill_python" class="skill-icon">
+                    </div>
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/sql.png" alt="logo_skill_sql" class="skill-icon">
+                    </div>
+                    <h3>SQL</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/postgresql.png" alt="logo_skill_postgresql" class="skill-icon">
+                    </div>
+                    <h3>PostgreSQL</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/sequelize.png" alt="logo_skill_sequelize" class="skill-icon">
+                    </div>
+                    <h3>Sequelize</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/react.png" alt="logo_skill_react" class="skill-icon">
+                    </div>
+                    <h3>React</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/redux.png" alt="logo_skill_redux" class="skill-icon">
+                    </div>
+                    <h3>Redux</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/wordpress.png" alt="logo_skill_wordpress" class="skill-icon">
+                    </div>
+                    <h3>WordPress</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/axios.png" alt="logo_skill_axios" class="skill-icon">
+                    </div>
+                    <h3>Axios</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/nodejs.png" alt="logo_skill_nodejs" class="skill-icon">
+                    </div>
+                    <h3>NodeJS</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/bootstrap.png" alt="logo_skill_bootstrap" class="skill-icon">
+                    </div>
+                    <h3>Bootstrap</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/cloudinary.png" alt="logo_skill_cloudinary" class="skill-icon">
+                    </div>
+                    <h3>Cloudinary</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/nodemailer.png" alt="logo_skill_nodemailer" class="skill-icon">
+                    </div>
+                    <h3>Nodemailer</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/stripe.png" alt="logo_skill_stripe" class="skill-icon">
+                    </div>
+                    <h3>Stripe</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/auth0.png" alt="logo_skill_auth0" class="skill-icon">
+                    </div>
+                    <h3>Auth0</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/git.png" alt="logo_skill_git" class="skill-icon">
+                    </div>
+                    <h3>Git</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="./assets/img/skills/github.png" alt="logo_skill_github" class="skill-icon">
+                    </div>
+                    <h3>GitHub</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <div class="curriculum-header">
+                <h2>Curriculum</h2>
+            </div>
+            <div class="fila">
+
+                <!-- Educacion -->
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Full Stack Developer</h4>
+                        <span class="casa">Soy Henry</span>
+                        <span class="fecha">Agosto 2022 - Diciembre 2022</span>
+                        <p>Bootcamp intensivo, en el que participe, estudiando y trabajando mas de 8 horas diarias.
+                            Constante esfuerzo y perseverancia ya que todo lo que todo lo que aprendia eran
+                            conocimientos nuevos. Hasta que un dia logre completar mi meta y me desarrolle completamente
+                            como un desarrollador Full Stack.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico En Industrias De Procesos</h4>
+                        <span class="casa">Instituto Tecnico Maestro Alfredo Bravo</span>
+                        <span class="fecha">Marzo 2014 - Diciembre 2020</span>
+                        <p>Instituto tecnico en el que me forme. Con conocimientos en quimica (analitica, organica,
+                            inorganica), microbiologia, marco juridico, dibujo tecnico, automatizacion industrial, entre
+                            otras experiencias profesionales.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiencia de trabajo  -->
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>E-Commerce</h4>
+                        <span class="casa">HenryTech</span>
+                        <span class="fecha">Diciembre 2022</span>
+                        <p>Un E-Commerce de hardware tecnologico, creado junto a 2 compañeros, utilizamos tecnologias
+                            como: React, Redux, JS, CSS, SAS, PostgreSQL, Express, Stripe, Auth0, Nodemailer, entre
+                            otras. (Mas info en mi Linkedin)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Sigle Page Application</h4>
+                        <span class="casa">PokeHenry</span>
+                        <span class="fecha">Noviembre 2022</span>
+                        <p>Desarrolle un S.P.A la cual esta conectada a la API de Pokémon. Utilizando tecnologias como
+                            React, Redux, Node.js, Express.js, Sequelize(ORM), PostgreSQL y CSS.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollo Web</h4>
+                        <span class="casa">Mainumbí</span>
+                        <span class="fecha">Julio 2022</span>
+                        <p>Desarrolle un E-Commerce de ropa de campo Argentina, realizada con WordPress y Hostinger como
+                            servidor.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollo Web</h4>
+                        <span class="casa">Amazon Jungle Tours</span>
+                        <span class="fecha">Abril 2022</span>
+                        <p>Desarrolle un sitio Web informativo sobre tours en Leticia Amazonas Colombiano, realizada con
+                            WordPress y Hostinger como servidor.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <div class="portfolio-header">
+                <h2>Portafolio</h2>
+            </div>
+
+            <!-- Proyectos -->
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://henry-tech-app.vercel.app/" target="_blank">
+                        <img src="assets/img/Proyects/p1.png" alt="proyect_henry_tech_app">
+                        <div class="overlay">
+                            <h3>Desarrollo web</h3>
+                            <p>E-Commerce</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://pi-pokemon-plum.vercel.app/" target="_blank">
+                        <img src="assets/img/Proyects/p2.png" alt="proyect_pi_pokemon">
+                        <div class="overlay">
+                            <h3>Desarrollo web</h3>
+                            <p>S.P.A.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://jungletoursamazonas.com/" target="_blank">
+                        <img src="assets/img/Proyects/p3.png" alt="proyect_jungletoursamazonas">
+                        <div class="overlay">
+                            <h3>Desarrollo web</h3>
+                            <p>Informativo</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://mainumbivaconvos.com/" target="_blank">
+                        <img src="assets/img/Proyects/p4.png" alt="proyect_mainumbivaconvos">
+                        <div class="overlay">
+                            <h3>Desarrollo web</h3>
+                            <p>E-Commerce</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://calculator-mu-peach.vercel.app/" target="_blank">
+                        <img src="assets/img/Proyects/p5.png" alt="proyect_calculator">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Calculadora</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://t-rex-beta.vercel.app/" target="_blank">
+                        <img src="assets/img/Proyects/p6.png" alt="proyect_trex_game">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>T-Rex Game</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <div class="contacto-header">
+                <h2>Contacto</h2>
+            </div>
+            <div class="fila">
+
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formsubmit.co/9141e8bf83632753e0e4d0c773f88a80" method="POST">
+                        <input type="text" placeholder="Tú Nombre" name="Nombre">
+                        <input type="text" placeholder="Número telefónico" name="Telefono">
+                        <input type="text" placeholder="Dirección de correo" name="Mail">
+                        <input type="text" placeholder="Tema" name="Tema">
+                        <textarea id="" cols="15" rows="5" placeholder="Mensaje" name="Mensaje"></textarea>
+                        <button type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+
+                        <!-- Inputs para sacar captcha -->
+                        <input type="hidden" name="_next" value="https://http://127.0.0.1:5500/thanks.html">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+
+                <!-- Linkedin -->
+                <div class="col">
+                    <img src="assets/img/linkedin.png" alt="">
+                    <div class="info">
+                        <a href="https://www.linkedin.com/in/huari-patey-paz-17588924a/" target="_blank">
+                            <button class="button_linkedin">
+                                Linkedin
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/Huaripaz" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/huari-patey-paz-17588924a/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://discord.com/users/Huari Patey Paz#2240" target="_blank"><i
+                    class="fa-brands fa-discord"></i></a>
+            <a href="mailto:huaripateypaz@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=543543657596" target="_blank"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
